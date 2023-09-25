@@ -1,0 +1,39 @@
+ # ini sebagai login username dan nim 
+print("="*40)
+print("login")
+print("="*40)
+nama= input("masukan nama: ")
+nim= int(input("masukan nim:"))
+print("="*40)
+print("DASBORD")
+print("="*40)
+print("nama:",nama,)
+print("nim :",nim)
+print("="*40)
+# memasuki dasbord
+print("\t      (konversi)\n\t(pounds,ounce,gram)")
+print("="*40)
+
+print('\tkonversi massa kilogram')
+print('\t [1. kilogram ke pounds]')
+print('\t [2. Rupiah ke ounce]')
+print('\t [3. Rupiah ke gram]')
+
+print('=' * 40)
+
+operasi = input('Pilih konversi massa (1,2,3): ')
+bilangan_1 = eval(input('Masukkan massa kilogram : '))
+#ini sebagai input
+print('=' * 40)
+
+if operasi == '1':
+  hasil = bilangan_1 * 2.2
+  print(f'Hasil dari konversi massa {bilangan_1} kg ke pounds adalah {hasil} lb')
+elif operasi == '2':
+  hasil = bilangan_1 * 35.27
+  print(f'hasil dari konversi massa {bilangan_1} kg ke ounce adalah {hasil} ons')
+elif operasi == '3':
+  hasil = bilangan_1 * 1000
+  print(f'hasil dari konversi massa {bilangan_1} kg ke gram adalah  {hasil} gram')
+print('=' * 40)
+print("Program Berakhir")
