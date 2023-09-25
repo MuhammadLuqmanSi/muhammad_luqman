@@ -16,8 +16,8 @@ print("="*40)
 
 print('\tkonversi massa kilogram')
 print('\t [1. kilogram ke pounds]')
-print('\t [2. Rupiah ke ounce]')
-print('\t [3. Rupiah ke gram]')
+print('\t [2. kilogram ke ounce]')
+print('\t [3. kilogram ke gram]')
 
 print('=' * 40)
 
