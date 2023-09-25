@@ -1,0 +1,25 @@
+========================================
+login
+========================================
+masukan nama: muhammad luqman 
+masukan nim:2309116068
+========================================
+DASBORD
+========================================
+nama: muhammad luqman
+nim : 2309116068
+========================================
+              (konversi)
+        (pounds,ounce,gram)
+========================================
+        konversi massa kilogram
+         [1. kilogram ke pounds]
+         [2. Rupiah ke ounce]
+         [3. Rupiah ke gram]
+========================================
+Pilih konversi massa (1,2,3): 1
+Masukkan massa kilogram : 1
+========================================
+Hasil dari konversi massa 1 kg ke pounds adalah 2.2 lb
+========================================
+Program Berakhir
